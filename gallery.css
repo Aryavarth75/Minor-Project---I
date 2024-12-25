@@ -1,0 +1,279 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.top
+{
+  
+    background-color:#00224D;
+    height: 30px;
+   
+   
+   
+}
+.calltop
+{
+   margin-left: 1300px;
+   padding-top: 8px;
+   
+}
+.calltop p{
+   color: #ffffff;
+  margin-top: -20px;
+  margin-left: 20px;
+}
+.mailtop
+{
+    margin-left: 1050px;
+    margin-top: -20px;
+}
+.mailtop a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #ffffff;
+    padding-left: 10px;
+}
+.contain
+{    
+ 
+    height: 700px;
+    width:1473px ;
+   
+    
+}  
+
+.nav
+{
+position: fixed;
+height: 50px;
+
+width: 100%;
+}
+.nav .ulnav 
+{
+ display: flex;
+ list-style: none;
+ padding-left: 0px;
+}
+.nav ul li
+{   margin-left: 60px;
+    padding:5px;
+    position: relative;
+}
+.nav ul li .anav
+{
+    color: #00224D;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.nav ul li a:hover
+{
+    color: #ffffff;
+    background-color: #00224D;
+   
+    border: 5px solid white;
+   font-weight: 100;
+  i
+  {
+    color: #FFC94A;
+  }
+    
+}
+.dropmanuadmission{display: none;}
+.nav ul li:hover .dropmanuadmission  
+{
+    display: block;
+    position: absolute;
+    left: 0%;
+    top: 100%;
+    background-color: #ffffff;
+    margin-left: 15%;
+    margin-top: 0%;
+    border-radius: 15%;
+     height: 150px;
+     width: 180px;
+}
+.nav ul li:hover .dropmanuadmission ul
+{
+    display:block;
+    list-style: none;
+    
+   
+}
+.nav ul li:hover .dropmanuadmission ul li
+{
+    width: 10px;
+    font-size: 25px;
+   
+    
+}
+
+.nav ul li:hover .dropmanuadmission ul li a
+{   
+    font-size: 20px;
+    text-decoration: none;
+    color: #00224D;
+    margin-left:-50px;
+    font-family: sans-serif;
+   
+}
+.nav ul li:hover .dropmanuadmission ul li a:hover
+{
+    color: #ffffff;
+    
+}
+.dropmanudepartment {display:none;}
+.nav ul li:hover .dropmanudepartment
+{
+    display:block;
+    position:absolute;
+    background-color: #ffffff;
+    margin-top: 5px;
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+}
+.nav ul li:hover .dropmanudepartment ul
+{
+    display: block;
+    list-style: none;
+}
+.nav ul li:hover .dropmanudepartment ul li
+{
+    width: 300px;
+    margin-top: 5px;
+    margin-left: 5px; 
+    color: #00224D;
+}
+.nav ul li:hover .dropmanudepartment ul li a 
+{
+    font-size: 20px;
+    text-decoration: none;
+    font-family: sans-serif;
+  
+}
+.nav ul li:hover .dropmanudepartment ul li a:hover
+{
+    color: #ffffff;
+}
+.dropmanuacadmic {display: none;}
+.nav ul li:hover .dropmanuacadmic  
+{
+    display: block;
+    position: absolute;
+    left: 0%;
+    top: 100%;
+    background-color: #ffffff;
+    margin-left: 0%;
+    margin-top: 0%;
+    border-radius: 20px;
+    height: 220px;
+    width: 200px;
+}
+.nav ul li:hover .dropmanuacadmic ul
+{
+    display:block;
+    list-style: none;
+}
+.nav ul li:hover .dropmanuacadmic ul li
+{
+    width: 100px;
+    padding-top: 10%;
+    margin-left: 70px;
+}
+.nav ul li:hover .dropmanuacadmic ul li a
+{
+    font-size: 20px;
+    text-decoration: none;
+    color: #00224D;
+    margin-left: -70px;
+    font-family: sans-serif;
+}
+.nav ul li:hover .dropmanuacadmic ul li a:hover
+{
+    color: #ffffff;
+}
+   
+    .backimg
+    {  display: flex; 
+       background-image: url("Photo/college.jpg");
+       background-size: cover;
+       height: 480px;
+        width: 100%;
+        border-bottom:5px solid #4770a4;
+    }
+    .college1
+    {   height: 900px;
+        width: 800px;
+        background-image: url("Photo/college\ 1.jpg");
+        background-size: cover;
+    }
+    .college3
+    {   margin-left: 820px;
+        margin-top: -880px;
+        height: 300px;
+        width: 630px;
+        background-image: url("Photo/college\ 3.jpg");
+        background-size: cover;
+    }
+    .girlhostel
+    {   margin-left: 830px;
+        margin-top: 30px;
+        height: 300px ;
+        width: 600px;
+        background-image: url("Photo/girl\ hostel.jpg");
+        background-size: cover;
+    }
+    .sideview
+    {
+        background-image: url("Photo/college\ 2.jpg");
+        background-size: cover;
+        height: 410px;
+        width: 1473px;
+        margin-top: 25px;
+    }
+    .college4
+    {
+        background-image: url("Photo/cover.jpg");
+        background-size: cover;
+        height: 400px;
+        width: 1473px;
+        margin-top: 20px;
+    }
+    .college5
+    {
+        background-image: url("Photo/cover3.jpg");
+        background-size: cover;
+        height: 350px;
+        width: 1473;
+        margin-top: 20px;
+    }
+    .college6
+    {
+        background-image: url("Photo/cover2.jpg");
+        background-size: cover;
+        height: 350px;
+        width: 735px;
+        margin-top: 20px;
+    } 
+    .college7
+    {
+        background-image: url("Photo/li.jpg");
+        background-size: cover;
+        height: 350px;
+        width: 735px;
+        margin-top: 20px;
+        margin-left: 740px;
+        margin-top: -350px;
+    }
+    .college8
+    {
+        background-image: url("Photo/IIC\ cover.jpg");
+        background-size: cover;
+        height: 650px;
+        width: 1473;
+        margin-top: 20px;
+    }

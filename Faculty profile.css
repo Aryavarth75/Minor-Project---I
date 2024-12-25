@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top
+{
+  
+    background-color:#00224D;
+    height: 30px;
+   
+   
+   
+}
+.calltop
+{
+   margin-left: 1300px;
+   padding-top: 8px;
+   
+}
+.calltop p{
+   color: #ffffff;
+  margin-top: -20px;
+  margin-left: 20px;
+}
+.mailtop
+{
+    margin-left: 1050px;
+    margin-top: -20px;
+}
+.mailtop a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #ffffff;
+    padding-left: 10px;
+}
+.contain
+{    
+    background-image:url("f\ page.jpg");
+    background-size:cover;
+    height: 700px;
+    width:1473px ;
+    display: flex;
+   
+}
+.nav
+{
+position: fixed;
+height: 50px;
+
+width: 100%;
+}
+.nav .ulnav 
+{
+ display: flex;
+ list-style: none;
+ padding-left: 0px;
+}
+.nav ul li
+{   margin-left: 60px;
+    padding:5px;
+    position: relative;
+}
+.nav ul li .anav
+{
+    color: #00224D;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.nav ul li a:hover
+{
+    color: #ffffff;
+    background-color: #00224D;
+   
+    border: 5px solid white;
+   font-weight: 100;
+  i
+  {
+    color: #FFC94A;
+  }
+    
+}
+.dropmanuadmission{display: none;}
+.nav ul li:hover .dropmanuadmission  
+{
+    display: block;
+    position: absolute;
+    left: 0%;
+    top: 100%;
+    background-color: #ffffff;
+    margin-left: 15%;
+    margin-top: 0%;
+    border-radius: 15%;
+     height: 150px;
+     width: 180px;
+}
+.nav ul li:hover .dropmanuadmission ul
+{
+    display:block;
+    list-style: none;
+    
+   
+}
+.nav ul li:hover .dropmanuadmission ul li
+{
+    width: 10px;
+    font-size: 25px;
+   
+    
+}
+
+.nav ul li:hover .dropmanuadmission ul li a
+{   
+    font-size: 20px;
+    text-decoration: none;
+    color: #00224D;
+    margin-left:-50px;
+    font-family: sans-serif;
+   
+}
+.nav ul li:hover .dropmanuadmission ul li a:hover
+{
+    color: #ffffff;
+    
+}
+.dropmanudepartment {display:none;}
+.nav ul li:hover .dropmanudepartment
+{
+    display:block;
+    position:absolute;
+    background-color: #ffffff;
+    margin-top: 5px;
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+}
+.nav ul li:hover .dropmanudepartment ul
+{
+    display: block;
+    list-style: none;
+}
+.nav ul li:hover .dropmanudepartment ul li
+{
+    width: 300px;
+    margin-top: 5px;
+    margin-left: 5px; 
+    color: #00224D;
+}
+.nav ul li:hover .dropmanudepartment ul li a 
+{
+    font-size: 20px;
+    text-decoration: none;
+    font-family: sans-serif;
+  
+}
+.nav ul li:hover .dropmanudepartment ul li a:hover
+{
+    color: #ffffff;
+}
+.dropmanuacadmic {display: none;}
+.nav ul li:hover .dropmanuacadmic  
+{
+    display: block;
+    position: absolute;
+    left: 0%;
+    top: 100%;
+    background-color: #ffffff;
+    margin-left: 0%;
+    margin-top: 0%;
+    border-radius: 20px;
+    height: 220px;
+    width: 200px;
+}
+.nav ul li:hover .dropmanuacadmic ul
+{
+    display:block;
+    list-style: none;
+}
+.nav ul li:hover .dropmanuacadmic ul li
+{
+    width: 100px;
+    padding-top: 10%;
+    margin-left: 70px;
+}
+.nav ul li:hover .dropmanuacadmic ul li a
+{
+    font-size: 20px;
+    text-decoration: none;
+    color: #00224D;
+    margin-left: -70px;
+    font-family: sans-serif;
+}
+.nav ul li:hover .dropmanuacadmic ul li a:hover
+{
+    color: #ffffff;
+}
+.PROFILE1
+{
+    height: 300px;
+    width: 200px;
+    background-color: #00224D;
+    margin-top: 800px;
+    margin-left: 100px;
+    
+}
+.PROFILE2
+{
+    height: 300px;
+    width: 200px;
+    background-color: #00224D;
+    margin-top: 800px;
+    margin-left: 150px;  
+}
+.PROFILE3
+{
+    height: 300px;
+    width: 200px;
+    background-color: #00224D;
+    margin-top:800px;
+    margin-left: 150px;  
+}
+.PROFILE4
+{
+    height: 300px;
+    width: 200px;
+    background-color: #00224D;
+    margin-top: 800px;
+    margin-left: 150px;  
+}
+.PROFILE5
+{
+    height: 300px;
+    width: 200px;
+    background-color: #00224D;
+    margin-top:1200px;
+    margin-left: -1250px;  
+}
+.PROFILE6
+{
+    height: 300px;
+    width: 200px;
+    background-color: #00224D;
+    margin-top:1200px;
+    margin-left: 150px;  
+}
+.PROFILE7
+{
+    height: 300px;
+    width: 200px;
+    background-color: #00224D;
+    margin-top:1200px;
+    margin-left: 150px;  
+}
+.PROFILE8
+{
+    height: 300px;
+    width: 200px;
+    background-color: #00224D;
+    margin-top:1200px;
+    margin-left: 150px;  
+}

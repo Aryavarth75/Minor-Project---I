@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sumit.css">
+    <title>Crop Disease Scanner</title>
+    
+</head>
+<body>
+    <header>
+        <h1>Crop Disease Scanner</h1>
+    </header>
+    <main>
+        <div class="container">
+            <h2>Scan Your Crop</h2>
+            <p>Upload an image of your crop to detect potential diseases.</p>
+            <input type="file" id="imageInput" accept="image/*">
+            <button onclick="uploadImage()">Scan Image</button>
+            <div id="result"></div>
+        </div>
+    </main>
+    <script>
+        async function uploadImage() {
+            const input = document.getElementById('imageInput');
+            const resultDiv = document.getElementById('result');
+            if (input.files.length === 0) {
+                alert('Please select an image file.');
+                return;
+            }
+
+            const file = input.files[0];
+            const formData = new FormData();
+            formData.append('file', file);
+
+            resultDiv.textContent = "Scanning the image...";
+
+            try {
+                // Replace the URL below with your backend endpoint
+                const response = await fetch('http://localhost:5000/upload', {
+                    method: 'POST',
+                    body: formData,
+                });
+
+                if (!response.ok) {
+                    throw new Error('Failed to upload the image.');
+                }
+
+                const data = await response.json();
+                resultDiv.textContent = `Disease Detected: ${data.disease}`;
+            } catch (error) {
+                console.error('Error:', error);
+                resultDiv.textContent = 'An error occurred while scanning the image.';
+            }
+        }
+    </script>
+</body>
+</html>
